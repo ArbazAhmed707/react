@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Marcellus&display=swap");
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Marcellus", serif;
+}
+
+.container {
+  max-width: 1362px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header {
+  padding: 15px 0px;
+}
+
+.navbar ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 25px;
+}
+.navbar ul li a {
+  color: #60391e;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.navbar ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #60391e;
+  transition: 0.4s;
+  bottom: -5px;
+}
+.navbar ul li a:hover {
+  transition: 0.4s;
+}
+.navbar ul li a:hover:after {
+  transition: 0.4s;
+  width: 100%;
+}
+.navbar ul li:last-child a {
+  border: 1px solid #60391e;
+  padding: 13px 25px;
+  border-radius: 6px;
+}
+.navbar ul li:last-child a::after {
+  display: none;
+}
+.navbar ul li:last-child a:hover {
+  background: #60391e;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-box {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0;
+}
+
+.banner-text {
+  display: block;
+  width: 33%;
+  background: #fff;
+  position: absolute;
+  top: 100px;
+  padding: 50px 70px;
+  border-radius: 10px;
+  box-shadow: 3px 11px 11px #f6f6f6;
+}
+.banner-text h1 {
+  font-size: 80px;
+  color: #60391e;
+  margin: 0px;
+  padding: 0px;
+}
+.banner-text p {
+  font-size: 28px;
+  color: #60391e;
+  padding-bottom: 30px;
+}
+.banner-text p b {
+  font-size: 37px;
+}
+.banner-text a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background: #60391e;
+  padding: 15px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.h2 {
+  font-size: 48px;
+  color: #60391e;
+  display: block;
+  margin: 0px;
+}
+
+.gallery-box {
+  background: rgb(247, 246, 244);
+  background: linear-gradient(180deg, rgb(247, 246, 244) 0%, rgb(247, 246, 244) 69%, rgb(255, 255, 255) 69%);
+  padding-top: 200px;
+}
+
+.text-col {
+  width: 100%;
+  text-align: center;
+}
+.text-col p {
+  font-size: 22px;
+  color: #60391e;
+  display: block;
+  margin: 0p;
+}
+.text-col .sm-text {
+  margin: 0 auto;
+  font-size: 16px;
+  color: #000;
+  line-height: 31px;
+  max-width: 89%;
+}
+
+.image-gallery {
+  padding-top: 150px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  width: 100%;
+}
+.image-gallery .col-50 {
+  padding-top: 15px;
+  width: 50%;
+  text-align: center;
+}
+.image-gallery .col-25 {
+  width: 25%;
+}
+.image-gallery .col-25:first-child {
+  text-align: right;
+}
+.image-gallery .col-25:last-child {
+  padding-top: 130px;
+}
+
+.gallery-img img {
+  border-radius: 20px;
+}
+
+.catagries-box {
+  padding-top: 120px;
+}
+.catagries-box .cat {
+  padding-top: 20px;
+}
+.catagries-box .cat h3 {
+  font-size: 26px;
+  color: #60391e;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.catagries-box .row {
+  flex-wrap: wrap;
+}
+.catagries-box .row .col-33 {
+  width: 33.333%;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.btn_primary {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background: #60391e;
+  padding: 15px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.h3 {
+  font-size: 39px;
+  color: #60391e;
+  display: block;
+  margin: 0px;
+}
+
+.acne-box {
+  padding: 80px 0;
+}
+.acne-box .row {
+  gap: 15px;
+}
+.acne-box .row .col-50 {
+  width: 49.3334%;
+}
+.acne-box p {
+  font-size: 16px;
+  color: #000;
+  line-height: 30px;
+}/*# sourceMappingURL=main.css.map */
